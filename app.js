@@ -10,6 +10,7 @@ else{ amigos.push(amigo.value);
   //console.log(amigos)  para revisar la lista antes de entrar en produccion 
   actualizarLista(amigos)
   document.getElementById('amigo').value = '';
+  resultado.innerHTML='';
 }
     
 }
