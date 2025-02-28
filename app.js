@@ -5,7 +5,7 @@ let lista=document.getElementById('listaAmigos')
 let resultado=document.getElementById('resultado')
 // funcion para agregar amigos al sistema, valida que no este vacio y que no sea solo 1
 function agregarAmigo() { if (amigo.value=='') {alert('por favor ingrese un nombre');
-  return;  
+ // return;  
 }
 else{ amigos.push(amigo.value);
   //console.log(amigos)  para revisar la lista antes de entrar en produccion 
